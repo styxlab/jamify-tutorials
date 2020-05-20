@@ -78,5 +78,15 @@ module.exports = {
         {
             resolve: `gatsby-theme-ghost-toc`,
         },
+        {
+            resolve: `gatsby-plugin-ackee-tracker`,
+            options: {
+                domainId: `8896dfd9-2f6b-489a-b102-b4dfd6c971ba`,
+                server: `https://analytics.atmolabs.org`,
+                ignoreLocalhost: true,
+                // If enabled it will collect info on OS, BrowserInfo, Device  & ScreenSize
+                detailed: true,
+            },
+        },
     ],
 }
