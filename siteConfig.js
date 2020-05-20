@@ -1,16 +1,16 @@
 module.exports = {
     // Do not include a trailing slash!
-    siteUrl: `https://styxlab.github.io`,
+    siteUrl: `https://www.jamify.org`,
 
     // Maximum number of post shown per page
     // With Infinite Scroll this is the chunk of posts fetched when scrolling down
     postsPerPage: 3,
 
     // This allows an alternative site title for meta data for pages.
-    siteTitleMeta: `Gatsby Starter Ghost CMS`,
+    siteTitleMeta: `Jamify Tutorials`,
 
     // This allows an site description for meta data for pages.
-    siteDescriptionMeta: `Turn your Ghost blog into a flaring fast static site with Gatsby`,
+    siteDescriptionMeta: `Publish flaring fast blogs with Gatsby and Ghost`,
 
     // Change to the width and height of your default share image
     shareImageWidth: 1000,
