@@ -4931,10 +4931,10 @@ eslint-module-utils@^2.4.1:
     debug "^2.6.9"
     pkg-dir "^2.0.0"
 
-eslint-plugin-ember@8.5.0:
-  version "8.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-8.5.0.tgz#08660485edcf78c716b7db7c0834c970d06a3dc1"
-  integrity sha512-tj8GQbm5XknbUDp4FrwMLGBprxqzoi9JAszXyCwMPJQBipinHyyAxIRbu57/ENJVyeGRmQTme1WM4PJuMh3kFQ==
+eslint-plugin-ember@8.5.1:
+  version "8.5.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-8.5.1.tgz#acaeb430e150115350fb184450cd17eaf6bb5d7e"
+  integrity sha512-92tU1ktJBfwcWIdAzVVuo6gLIGWrf2AtnNyHnw7vBmSVcP00P5hM7fDXL0CaLWblAVIrfik4NrOWCe9sSkh6ww==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     ember-rfc176-data "^0.3.12"
@@ -4947,12 +4947,12 @@ eslint-plugin-flowtype@^3.13.0:
   dependencies:
     lodash "^4.17.15"
 
-eslint-plugin-ghost@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ghost/-/eslint-plugin-ghost-1.4.0.tgz#cef5ce7779e3f174e9c9b267d9e9b48256750fa2"
-  integrity sha512-cLeyUfUIlLLBtFJyyPIgxQ0D9UzR3dwRpmGApKnJdlWoXvnc3HElvAPK3qZO9VhSyJQNgGIAd6F0ATIieFXz8w==
+eslint-plugin-ghost@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ghost/-/eslint-plugin-ghost-1.4.1.tgz#727d837d1e9cbb3025a23baf2fccda4f297bea07"
+  integrity sha512-ChHAQSKPA/qwyhkx5NTk9iA2L60aJEBnpQCqLlqJDaBUK28s6L+lsWz0Lv7Y4I0ZXYa7Wpy9OPPX4GlFFPxDyg==
   dependencies:
-    eslint-plugin-ember "8.5.0"
+    eslint-plugin-ember "8.5.1"
     eslint-plugin-mocha "6.3.0"
     eslint-plugin-sort-imports-es6-autofix "0.5.0"
 
@@ -5025,6 +5025,23 @@ eslint-plugin-react@^7.19.0:
     prop-types "^15.7.2"
     resolve "^1.15.1"
     semver "^6.3.0"
+    string.prototype.matchall "^4.0.2"
+    xregexp "^4.3.0"
+
+eslint-plugin-react@^7.20.0:
+  version "7.20.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.20.0.tgz#f98712f0a5e57dfd3e5542ef0604b8739cd47be3"
+  integrity sha512-rqe1abd0vxMjmbPngo4NaYxTcR3Y4Hrmc/jg4T+sYz63yqlmJRknpEQfmWY+eDWPuMmix6iUIK+mv0zExjeLgA==
+  dependencies:
+    array-includes "^3.1.1"
+    doctrine "^2.1.0"
+    has "^1.0.3"
+    jsx-ast-utils "^2.2.3"
+    object.entries "^1.1.1"
+    object.fromentries "^2.0.2"
+    object.values "^1.1.1"
+    prop-types "^15.7.2"
+    resolve "^1.15.1"
     string.prototype.matchall "^4.0.2"
     xregexp "^4.3.0"
 
@@ -6176,10 +6193,10 @@ gatsby-plugin-force-trailing-slashes@^1.0.4:
   dependencies:
     "@babel/runtime" "7.0.0-beta.51"
 
-gatsby-plugin-ghost-images@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-ghost-images/-/gatsby-plugin-ghost-images-1.1.1.tgz#c69819fdf49a359924dce60539f89c5a8bbb258a"
-  integrity sha512-hyKl0jqASIIRB3LPPPzBwsOq55gqcENdh1Lgzzzx/YwQtsTU4s2umorWUZXWt7BHUx8w/CSiAgteST2nuXa4CA==
+gatsby-plugin-ghost-images@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-ghost-images/-/gatsby-plugin-ghost-images-1.1.2.tgz#fec9fd8ed39c43a8c9d24742e495ca4732c6758b"
+  integrity sha512-jNZuROaLXIAX/JF9Ax73xk2wc5T+4yHc4zB31quCsGj6nkCGEOSYUEzNhZW1aCxIm5ZZR6HJImUbQnChJ20/4A==
   dependencies:
     "@babel/runtime" "7.8.7"
     gatsby-source-filesystem "^2.1.55"
@@ -6439,17 +6456,24 @@ gatsby-telemetry@^1.3.0:
     stack-utils "1.0.2"
     uuid "3.4.0"
 
-gatsby-theme-ghost-dark-mode@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-ghost-dark-mode/-/gatsby-theme-ghost-dark-mode-1.1.1.tgz#c493cf66386c905cf32c3ecf5ee596c541c936ba"
-  integrity sha512-6MNxtVq+n01cFe7TpOnM90l1iPRURTbIGl1CHA5CdY/FP94a255CJrI24K6XRZU2Lsv2QdOr2JjIYh1JRtQTeA==
+gatsby-theme-ghost-dark-mode@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-ghost-dark-mode/-/gatsby-theme-ghost-dark-mode-1.1.2.tgz#60355befdaf93c4a9c49ff32ca245ece76533a77"
+  integrity sha512-Ww0pfLexysP8iY/oHPbhlnMY6gGEet8NwPV87AI8locdBnTajJ3rcyRAm2yZB1kj1rzPiAjJElTn7a+fRdOzow==
   dependencies:
     "@babel/runtime" "^7.9.2"
 
-gatsby-theme-try-ghost@^1.11.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-try-ghost/-/gatsby-theme-try-ghost-1.11.0.tgz#2cdb3d340298245510f7097eab4ac2125e0efd61"
-  integrity sha512-ng4uqoDld6ochPFIRoGVAOOnK9+kRhUaR34l3To4bGHIUklMnEebtzv19o/K3y5/sJjM4LEpHhPmyIs4mS/YQg==
+gatsby-theme-ghost-toc@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-ghost-toc/-/gatsby-theme-ghost-toc-1.0.6.tgz#eaff39f46c28a91751897c22bca97f7e53f0e352"
+  integrity sha512-S69uBurlmR6LKzoPs7ndOI2te3t48jFfm/REmMW+v7ZVT0MtWFWrUmAn8ceF8PV0t5e8FHG5YTaovedrFPC50A==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+
+gatsby-theme-try-ghost@^1.12.4:
+  version "1.12.4"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-try-ghost/-/gatsby-theme-try-ghost-1.12.4.tgz#ce2ef31f7d96eeaaf51ad0f66d98465f832a9a48"
+  integrity sha512-4ibEfBaOyX2AwmTd+40zF+DmXDKvp9RzcTXcwk9brPL1N5S9qzI7fNtiZmjtcj3uKPgCUAtpVc3QNVVcGFvbnw==
   dependencies:
     "@tryghost/helpers" "^1.1.27"
     "@tryghost/url-utils" "^0.6.18"
@@ -6465,7 +6489,7 @@ gatsby-theme-try-ghost@^1.11.0:
     gatsby-plugin-catch-links "^2.3.0"
     gatsby-plugin-feed "^2.5.0"
     gatsby-plugin-force-trailing-slashes "^1.0.4"
-    gatsby-plugin-ghost-images "^1.1.1"
+    gatsby-plugin-ghost-images "^1.1.2"
     gatsby-plugin-manifest "^2.4.1"
     gatsby-plugin-offline "^3.2.0"
     gatsby-plugin-postcss "^2.3.0"

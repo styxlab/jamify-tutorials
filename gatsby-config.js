@@ -75,5 +75,8 @@ module.exports = {
                 ],
             },
         },
+        {
+            resolve: `gatsby-theme-ghost-toc`,
+        },
     ],
 }
