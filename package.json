@@ -32,7 +32,7 @@
     "gatsby-theme-ghost-dark-mode": "^1.4.0",
     "gatsby-theme-ghost-members": "^1.2.3",
     "gatsby-theme-ghost-toc": "^1.2.1",
-    "gatsby-theme-try-ghost": "^1.21.0",
+    "gatsby-theme-try-ghost": "^1.21.1",
     "gatsby-transformer-rehype": "^1.4.1",
     "prismjs": "^1.20.0",
     "react": "^16.13.1",
