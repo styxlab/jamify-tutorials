@@ -1,6 +1,9 @@
 [build]
   command = "gatsby build"
-  publish = "public/"
+  publish = "public"
 
 [template]
   incoming-hooks = ["Ghost"]
+
+[[plugins]]
+  package = "netlify-plugin-gatsby-cache"
