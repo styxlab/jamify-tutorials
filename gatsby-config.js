@@ -85,6 +85,9 @@ module.exports = {
                     {
                         resolve: `gatsby-rehype-prismjs`,
                     },
+                    {
+                        resolve: `gatsby-rehype-inline-images`,
+                    },
                 ],
             },
         },
