@@ -27,6 +27,7 @@
   "dependencies": {
     "gatsby": "^2.23.11",
     "gatsby-plugin-ackee-tracker": "^1.4.0",
+    "gatsby-plugin-google-analytics": "^2.3.6",
     "gatsby-plugin-netlify": "^2.3.7",
     "gatsby-plugin-preload-link-crossorigin": "^1.0.2",
     "gatsby-rehype-ghost-links": "^1.5.0",
