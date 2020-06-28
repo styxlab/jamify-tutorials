@@ -4,7 +4,7 @@ module.exports = {
     gatsbyImages: true,
 
     // Loading methods: lazy, eager or auto (default: lazy)
-    gatsbyImageLoading: `eager`,
+    gatsbyImageLoading: `lazy`,
 
     // Fading in transition (default: true)
     gatsbyImageFadeIn: true,
