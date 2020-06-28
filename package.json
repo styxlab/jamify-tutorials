@@ -28,6 +28,7 @@
     "gatsby": "^2.23.11",
     "gatsby-plugin-google-analytics": "^2.3.6",
     "gatsby-plugin-netlify": "^2.3.7",
+    "gatsby-plugin-offline": "^3.2.13",
     "gatsby-rehype-ghost-links": "^1.5.0",
     "gatsby-rehype-inline-images": "^1.4.0",
     "gatsby-rehype-prismjs": "^1.1.1",
