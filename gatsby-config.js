@@ -46,6 +46,7 @@ try {
 
 module.exports = {
     plugins: [
+        `gatsby-plugin-netlify`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -112,7 +113,5 @@ module.exports = {
                 defer: false,
             },
         },
-        `gatsby-plugin-netlify`,
-        `gatsby-plugin-preload-link-crossorigin`,
     ],
 }
