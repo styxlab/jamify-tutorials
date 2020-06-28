@@ -7,7 +7,7 @@ module.exports = {
     gatsbyImageLoading: `eager`,
 
     // Fading in transition (default: true)
-    gatsbyImageFadeIn: false,
+    gatsbyImageFadeIn: true,
 
     // External URL for serving images, videos and other media
     mediaUrl: ``,
