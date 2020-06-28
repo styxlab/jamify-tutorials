@@ -4,11 +4,11 @@ module.exports = {
     gatsbyImages: true,
 
     // Loading methods: lazy, eager or auto (default: lazy)
-    gatsbyImageLoading: `eager`,
+    gatsbyImageLoading: `lazy`,
 
     // Fading in transition (default: true)
-    // true negatively impacts Lighthouse LCP
-    gatsbyImageFadeIn: false,
+    // true negatively impacts Lighthouse 6 LCP score
+    gatsbyImageFadeIn: true,
 
     // External URL for serving images, videos and other media
     mediaUrl: ``,
