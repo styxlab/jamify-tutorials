@@ -25,6 +25,9 @@ module.exports = {
     backgroundColor: `#e9e9e9`,
     themeColor: `#15171A`,
 
+    // Exclude post or pages (default: do not exclude)
+    excludePostsOrPages: (node => node.tags.find(tag => tag.name === `#hidden`) !== undefined),
+
     // Show more logs for debugging purposes (default: false)
     verbose: false,
 
