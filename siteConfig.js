@@ -15,10 +15,6 @@ module.exports = {
     // This allows an site description for meta data for pages.
     siteDescriptionMeta: `Publish flaring fast blogs with Gatsby and Ghost`,
 
-    // Change to the width and height of your default share image
-    shareImageWidth: 1000,
-    shareImageHeight: 523,
-
     // Used for App and Offline manifest e.g. Mobile Home Screen
     shortTitle: `Jamify`,
     siteIcon: `favicon.png`,
