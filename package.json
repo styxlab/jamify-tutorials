@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-try-ghost",
   "description": "Turn your Ghost blog into a flaring fast static site with Gatsby",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "keywords": [
     "gatsby",
