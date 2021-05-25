@@ -3,11 +3,11 @@ module.exports = {
     siteUrl: `https://www.jamify.org`,
 
     // Enable infinite scroll (default: true)
-    infiniteScroll: true,
+    infiniteScroll: false,
 
     // Initial number fetched, scrolling lazy loads posts one by one
     // If infinite scroll is disabled: maximum number of post shown per page
-    postsPerPage: 3,
+    postsPerPage: 300,
 
     // This allows an alternative site title for meta data for pages.
     siteTitleMeta: `Jamify Tutorials`,
@@ -22,12 +22,12 @@ module.exports = {
     themeColor: `#15171A`,
 
     // Exclude post or pages (default: do not exclude)
-    excludePostsOrPages: (node => node.tags.find(tag => tag.name === `#hidden`) !== undefined),
+    excludePostsOrPages: (node) =>
+        node.tags.find((tag) => tag.name === `#hidden`) !== undefined,
 
     // Show more logs for debugging purposes (default: false)
     verbose: false,
 
     // Severity for verbose mode: (`info`, `warn`, `error`)
     severity: `info`,
-
-}
+};
